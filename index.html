@@ -83,6 +83,23 @@
                   ></use>
                 </svg>
               </button>
+              <form class="register-form">
+                <strong class="strong-form"
+                  >Залиште свої дані, ми вам передзвонимо</strong
+                >
+                <div class="register-div" role="group">
+                  <label class="register-label">
+                    <span class="register-text">
+                      Ім'я
+                    </span>
+                    <input type="text" name="username" class="register-input" />
+                  </label>
+                  <label class="register-div" role="group">
+                    Телефон
+                    <input type="tel" name="tel" />
+                  </label>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -553,13 +570,16 @@
           </ul>
         </div>
         <form class="footer-form">
-          <label for="" class="foot-label">Підпишіться на розсилку</label>
+          <label for="submail" class="foot-label"
+            >Підпишіться на розсилку</label
+          >
           <div class="footer-subscribe">
             <input
               type="text"
               name="email"
               placeholder="E-mail"
               class="footer-input"
+              #="submail"
             />
             <button type="submit" class="subscribe-btn">
               Підписатися
