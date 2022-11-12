@@ -512,11 +512,7 @@ ul>.mail {
     border-color: var(--accent-color);
 }
 
-.checkbox-label {
-    position: relative;
-    
-    
-}
+
 
 .checkbox-input {
     position: absolute;
@@ -586,8 +582,8 @@ ul>.mail {
 
 .icon-check {
     position: absolute;
-    top: 0px;
-    left: 10px;
+    top: 1px;
+    left: 22px;
     display: block;
     align-items: center;
     justify-content: center;
