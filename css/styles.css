@@ -543,7 +543,7 @@ ul>.mail {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:focus + .checkbox-icon {
+.checkbox-input:focus+.checkbox-icon {
     border: 2px solid var(--accent-color);
 }
 
@@ -575,15 +575,14 @@ ul>.mail {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 425px
 }
-
 
 
 .icon-check {
     position: absolute;
-    top: 1px;
-    left: 22px;
+    top: 5px;
+    left: 12px;
     display: block;
     align-items: center;
     justify-content: center;
