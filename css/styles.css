@@ -513,6 +513,7 @@ ul>.mail {
 }
 
 .checkbox-label {
+    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -578,13 +579,14 @@ ul>.mail {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
 
 .icon-check {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 10px;
     display: block;
     align-items: center;
