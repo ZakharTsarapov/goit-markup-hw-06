@@ -1006,7 +1006,7 @@ overflow: hidden; */
 /* footer form */
 
 .footer-form {
-    margin-left: 93px;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
 }
@@ -1018,7 +1018,6 @@ overflow: hidden; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
-    margin-left: auto;
     margin-bottom: 20px;
 }
 
